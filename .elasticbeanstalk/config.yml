@@ -1,6 +1,8 @@
 branch-defaults:
   default:
     environment: q4-butterfly
+  master:
+    environment: q4-butterfly
 environment-defaults:
   q4-butterfly:
     branch: null
@@ -14,5 +16,5 @@ global:
   platform_name: null
   platform_version: null
   profile: eb-cli
-  sc: null
+  sc: git
   workspace_type: Application
