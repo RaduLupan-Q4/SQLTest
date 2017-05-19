@@ -1,8 +1,8 @@
 <?php
-define('DB_NAME', $_SERVER['RDS_DB_NAME']);
-define('DB_USER', $_SERVER['RDS_USERNAME']);
-define('DB_PASSWORD', $_SERVER['RDS_PASSWORD']);
-define('DB_HOST', $_SERVER['RDS_HOSTNAME']);
+define('DB_NAME', 'q4butterflydb');
+define('DB_USER', 'root');
+define('DB_PASSWORD', 'q4pass1234!');
+define('DB_HOST', 'q4-butterfly-rds.chzk3jlyjebm.us-west-2.rds.amazonaws.com');
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 define('AUTH_KEY',         $_SERVER['AUTH_KEY']);
